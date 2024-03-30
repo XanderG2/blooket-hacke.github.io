@@ -1,0 +1,44 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  background-color: #000000;
+}
+
+#canvas-container {
+  position: relative;
+}
+
+#overlayContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  background-color: rgba(250, 250, 250, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+button,
+input[type=password],
+input[type=text],
+#searchInput {
+  background-color: #000000;
+  border: 1px solid #555555;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+button:hover {
+  transform: scale(1.1);
+  background-color: #555555;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  box-shadow: 4px 4px 10px rgba(250, 250, 250, 0.5);
+}
