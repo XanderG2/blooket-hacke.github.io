@@ -25,7 +25,8 @@ body, html {
 button,
 input[type=password],
 input[type=text],
-#searchInput {
+#searchInput,
+textarea{
   background-color: #000000;
   border: 1px solid #555555;
   color: #ffffff;
